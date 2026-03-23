@@ -18,9 +18,7 @@ public class Creature extends ColorCard {
         return power;
     }
 
-    public int getHealth() {
-        return health;
-    }
+    public int getHealth() {return health;}
 
     public void bind(Player player) {
         if (target != null) {
